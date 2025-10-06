@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quinno Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">QuinnoBlog</h1>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle">🌙Dark mode</button>
+    <a href="login.html"><button id="login-btn">Login</button></a>
+    </nav>
+  </header>
+
+  <!-- Search Bar -->
+  <section class="search-section">
+    <input type="text" id="searchBar" placeholder="🔎Search blog..." onkeyup="searchBlog()">
+  </section>
+
+  <!-- Blog Cards -->
+  <section class="blog-container">
+    <div class="blog-card">
+      <img src="welcome.jpg" alt="Blog 1">
+     <h2 style="color: rgb(57, 106, 211);">Beginning of Quinno blog</h2>
+     <p style="color: rgb(21, 19, 20);"> Welcome to QuinnoBlog.com – 
+      our very first step in the world of engineering...Read more about this blog</p>
+      <a href="blog2.html" class="read-more">Read More</a>
+    </div>
+
+    <div class="blog-card">
+      <img src="tech.jpg" alt="Blog 2">
+      <h2 style="color: blue;">Newly Emerging Technologies</h2>
+      <p style="color: rgb(17, 17, 17);">Today our post is about newly 
+        emerging technologies
+... Read more about this blog</p>
+      <a href="blog.html" class="read-more">Read More</a>
+    </div>
+
+    <div class="blog-card">
+      <img src="inno.jpg" alt="Blog 3">
+      <h2 style="color: rgb(61, 61, 190);">Latest Innovations</h2>
+    
+        <p style="color: black;">Exploring the latest breakthroughs
+           transforming
+           industries world and more intersting discoveries....Read more about this blog</p>
+      <a href="blog3.html" class="read-more">Read More</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Quinno Blog | Designed by Team Quinno</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
