@@ -76,15 +76,6 @@ The site includes a clean user interface, login authentication, and an interacti
 
 
 
-## 👨‍💻 Team Members
-
-| Name | Role |
-|------|------|
-| [Your Name] | Frontend Developer |
-| [Teammate Name] | UI/UX Designer |
-| [Teammate Name] | Tester / Reviewer |
-
----
 
 ## 🏁 Conclusion
 
@@ -106,6 +97,3 @@ Department of Computer Science and Engineering
 
 
 
-
-
-## 🗂️ Project Structure
